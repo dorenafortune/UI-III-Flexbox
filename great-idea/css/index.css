@@ -240,10 +240,18 @@ h1, h2, h3, h4, h5 {
 	  margin:auto;
 	  width:50%;
 	  height:10%;
+	  border: 1px solid black;
+	  
+	  
+
 	  
   
   
 	
+  }
+
+  .services-info-img{
+	  display:flex;
   }
 
   .facts{
@@ -254,7 +262,10 @@ h1, h2, h3, h4, h5 {
 	  height:20%;
   }
 
-  
-
+.learnbutton{
+	background-color: white;
+  color: black;
+  border: 2px solid black;
+}
   
   
