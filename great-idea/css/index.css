@@ -64,6 +64,8 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
 .container {
 	width: 880px;
 	/* TB LR */
@@ -71,6 +73,12 @@ h1, h2, h3, h4, h5 {
   }
   
   /* header */
+
+  .services-header-img{
+	  display:flex;
+	  margin:5%;
+	  width:90%
+  }
   
   header{
 	  display:flex;
@@ -142,9 +150,14 @@ h1, h2, h3, h4, h5 {
   }
   
   .main-content {
-	border: 1px solid black;
+	border-top: 1px solid black;
 	margin-top: 76px;
 	padding-top: 39px;
+  }
+
+  .services-header-img{
+	  display:flex;
+	  justify-content: center;
   }
   
   .main-content .top-content {
@@ -179,12 +192,29 @@ h1, h2, h3, h4, h5 {
   }
   .top-content{
 	  display:flex;
+	  flex-direction:column;
+	  align-content:flex-start;
+	  margin:auto;
+	  width:50%;
+	  border-bottom: 1px solid black;
+  
+	  
+  }
+
+  .services{
+	  display:flex;
+	  margin:auto;
+	  width:90%;
+	  flex-direction:column;
+	  height:20%;
+	  border-bottom: 1px solid black;
   }
   
   .text-content{
 	  width:50%
   }
 
+  
   .bottom-content{
 	display:flex;
   }
@@ -204,6 +234,23 @@ h1, h2, h3, h4, h5 {
 	font-size: 14px;
   }
   
+  .text{
+	  display:flex;
+	  flex-direction:column;
+	  margin:auto;
+	  width:90%;
+	  height:20%;
+	  
+  }
+
+  .facts{
+	  display:flex;
+	  flex-direction: column;
+	  margin:50px;
+	  width:90%;
+	  height:20%;
+  }
+
   
 
   
