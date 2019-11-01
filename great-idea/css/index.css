@@ -194,9 +194,10 @@ h1, h2, h3, h4, h5 {
 	  display:flex;
 	  flex-wrap:wrap;
 	  align-content:flex-start;
-	  margin:auto;
+	  margin: auto;
 	  width:50%;
 	  border-bottom: 1px solid black;
+	  
   
 	  
   }
@@ -211,7 +212,7 @@ h1, h2, h3, h4, h5 {
   }
   
   .text-content{
-	  width:50%
+	  width:70%
   }
 
   
@@ -241,26 +242,37 @@ h1, h2, h3, h4, h5 {
 	  width:50%;
 	  height:10%;
 	  border: 1px solid black;
+	  background-color:lightgray;
+	  margin-bottom: 2%;
 	  
 	  
 
-	  
-  
-  
-	
-  }
+	  }
 
-  .services-info-img{
-	  display:flex;
+.content{
+		display:flex;
+
+	}
+
+  .services-info-img img{
+	  display: flex;
+	  justify-content:;
+	 
   }
 
   .facts{
 	  display:flex;
 	  flex-direction: column;
-	  margin:50px;
+	/* margin:50px;
 	  width:90%;
-	  height:20%;
+	  height:10%; */
   }
+
+ul{
+	list-style-type: circle;
+	margin-left:20px;
+	padding:5px;
+}
 
 .learnbutton{
 	background-color: white;
